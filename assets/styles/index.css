@@ -151,6 +151,41 @@ a {
   color: #fff;
 }
 
+/* ! ------------------------------------------------------------------------ */
+/* !                                 MAP                                      */
+/* ! ------------------------------------------------------------------------ */
+
+.mapboxgl-ctrl-bottom-right,
+.mapboxgl-ctrl-bottom-left {
+  display: none !important;
+}
+
+#map {
+  width: 1200px;
+  height: 600px;
+  margin: 20px auto;
+  border-radius: 0.4rem;
+  background-color: #aeaeae;
+}
+
+#fly-btn {
+    position: relative;
+    bottom: 100px;
+    left: calc(80% - 40px);
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #0599ff;
+}
+
+#fly-btn i {
+    font-size: 25px;
+    color: #fff;
+}
+
 .mobile-navbar-container {
   display: none;
 }
@@ -383,3 +418,4 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
 }
+
