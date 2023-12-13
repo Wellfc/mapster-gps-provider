@@ -54,7 +54,7 @@ function createMarker(latitude, longitude) {
   // Create a default Marker and add it to the map.
   const marker = new mapboxgl.Marker({
     color: "#0599ff",
-    scale: 0.6,
+    // scale: 0.6,
     rotation: 0,
   })
     .setLngLat([longitude, latitude])
