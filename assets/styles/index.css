@@ -149,3 +149,34 @@ button {
   border: 0.1rem solid #000;
   color: #fff;
 }
+
+
+/* ! ------------------------------------------------------------------------ */
+/* !                                 MAP                                      */
+/* ! ------------------------------------------------------------------------ */
+
+#map {
+  width: 1200px;
+  height: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #7d7d7d;
+}
+
+#fly-btn {
+    position: relative;
+    bottom: 110px;
+    left: 1180px;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #0599ff;
+}
+
+#fly-btn i {
+    font-size: 25px;
+    color: #fff;
+}
