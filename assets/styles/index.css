@@ -163,7 +163,7 @@ a {
   align-items: center;
   flex-direction: column;
   gap: 5rem;
-  padding: 5rem 0;
+  margin-bottom: 5rem;
 }
 
 .mapboxgl-ctrl-bottom-right,
@@ -173,7 +173,7 @@ a {
 
 #map {
   width: 1200px;
-  height: 600px;
+  height: 500px;
   background-color: #aeaeae;
 }
 
@@ -434,3 +434,13 @@ h3 {
   line-height: 1.5;
 }
 
+.stats-section__background {
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 5rem;
+}
+
+.stats-section__background p,
+.stats-section__background h2 {
+  color: #fff;
+}
