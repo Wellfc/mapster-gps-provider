@@ -120,7 +120,8 @@ a {
 /* !                                 CONTENT                                  */
 /* ! ------------------------------------------------------------------------ */
 
-button {
+button,
+a {
   padding: 1.5rem 2.5rem;
   font-weight: 500;
   border-radius: 0.4rem;
@@ -149,7 +150,6 @@ button {
   border: 0.1rem solid #000;
   color: #fff;
 }
-
 
 /* ! ------------------------------------------------------------------------ */
 /* !                                 MAP                                      */
@@ -185,3 +185,237 @@ button {
     font-size: 25px;
     color: #fff;
 }
+
+.mobile-navbar-container {
+  display: none;
+}
+
+.desktop-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10svh;
+}
+
+.logo-container {
+  width: 15%;
+}
+
+section {
+  height: 80svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.hero-banner-section {
+  background: rgb(246, 253, 255);
+  background: rgb(246, 253, 255);
+  background: linear-gradient(
+    114deg,
+    rgba(246, 253, 255, 1) 67%,
+    rgba(219, 247, 255, 1) 67%,
+    rgba(178, 235, 255, 1) 73%,
+    rgba(141, 221, 255, 1) 79%,
+    rgba(141, 221, 255, 1) 85%,
+    rgba(101, 210, 255, 1) 92%,
+    rgba(5, 153, 255, 1) 100%
+  );
+}
+
+.hero-banner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-a {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  padding-right: 10rem;
+}
+
+.section-title {
+  margin-bottom: -2rem;
+}
+
+.side-b {
+  height: 100%;
+  width: 45%;
+  position: relative;
+}
+
+.side-b div {
+  width: 100%;
+  height: 50rem;
+}
+
+.side-c {
+  height: 100%;
+  width: 45%;
+}
+
+.side-c div {
+  width: 100%;
+  height: 50rem;
+}
+
+.side-c div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.4rem;
+}
+
+.side-b::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50rem;
+  background-color: transparent;
+  background: url("../media/img/product.png") no-repeat center center/cover;
+  z-index: 1;
+}
+
+.side-a__buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+}
+
+.full-fleet-visibility-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reliable-software-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reliable-software-container div:last-child {
+  padding-left: 5rem;
+}
+
+.reliable-software-container__img-container,
+.reliable-software-container__text-container {
+  text-align: right;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.reliable-software-container div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.4rem;
+}
+
+.reliable-software-container__buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+  color: #fff;
+}
+
+.footer-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item.copyright {
+  color: #fff;
+}
+
+h3 {
+  font-size: 9rem;
+}
+
+.section-get-a-tour {
+  background-color: #000;
+  color: #fff;
+  padding: 5rem 0;
+  height: 10svh;
+}
+
+.stats-container {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.single-stat {
+  width: 28%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.single-stat p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
