@@ -10,10 +10,9 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoid2VsbGZjIiwiYSI6ImNscTE5azY3eDAzeGwyaXIycTgyM
 
 const map = new mapboxgl.Map({
   container: 'map', // container ID
-  // center: [-97.171995, 49.803435], // starting position [lng, lat]
-  // 97.1702272, 49.8204672
   center: [-97.143173, 49.895313], // starting position [lng, lat]
-  zoom: 9, // starting zoom
+  zoom: 4, // starting zoom
+  pitch: 40,
   style: 'mapbox://styles/mapbox/streets-v12' // style URL
 });
 
@@ -23,9 +22,9 @@ function getLocation(position) {
 
   lat = latitude;
   long = longitude;
-
+  // Center the map on the user's position
   goCenter(latitude, longitude);
-
+  // Create a marker of the user's position on the map
   createMarker(latitude, longitude);
 }
 
@@ -57,9 +56,9 @@ function errorHandler(error) {
   console.log(error.message);
 }
 
-// don't use the cached location
+// Location options
 const options = {
-  maximumAge: 0,
+  maximumAge: 0,  // don't use the cached location
   timeout: 5000,
   enableHighAccuracy: true
 };

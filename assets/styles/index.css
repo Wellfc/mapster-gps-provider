@@ -155,18 +155,23 @@ button {
 /* !                                 MAP                                      */
 /* ! ------------------------------------------------------------------------ */
 
+.mapboxgl-ctrl-bottom-right,
+.mapboxgl-ctrl-bottom-left {
+  display: none !important;
+}
+
 #map {
   width: 1200px;
   height: 600px;
   margin: 20px auto;
-  border-radius: 10px;
-  background-color: #7d7d7d;
+  border-radius: 0.4rem;
+  background-color: #aeaeae;
 }
 
 #fly-btn {
     position: relative;
-    bottom: 110px;
-    left: 1180px;
+    bottom: 100px;
+    left: calc(80% - 40px);
     visibility: hidden;
     margin: 0;
     padding: 0;
