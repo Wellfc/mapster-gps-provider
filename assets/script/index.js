@@ -19,7 +19,7 @@ const map = new mapboxgl.Map({
 
 function getLocation(position) {
   const { latitude, longitude } = position.coords;
-  console.log(`Longitude: ${longitude}, Latitude: ${latitude}`);
+  // console.log(`Longitude: ${longitude}, Latitude: ${latitude}`);
 
   lat = latitude;
   long = longitude;
