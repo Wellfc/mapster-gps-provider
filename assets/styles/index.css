@@ -469,3 +469,90 @@ h3 {
 .stats-section__background h2 {
   color: #fff;
 }
+
+@media (max-width: 1200px) {
+  .hero-banner-section {
+    background: rgb(246, 253, 255);
+  }
+
+  .hero-banner {
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+
+  .hero-banner > div {
+    width: 100%;
+  }
+
+  .side-a {
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .side-b {
+    display: none;
+  }
+
+  .side-b::after {
+    display: none;
+  }
+
+  .reliable-software-container {
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+  .reliable-software-container > div {
+    width: 100%;
+  }
+
+  .reliable-software-container__buttons {
+    display: none;
+  }
+
+  section {
+    height: 100svh;
+    margin: 10rem 0;
+  }
+
+  .full-fleet-visibility-container {
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+
+  .full-fleet-visibility-container > div {
+    width: 100%;
+  }
+
+  .stats-container {
+    flex-direction: column;
+    gap: 5rem;
+    overflow: hidden;
+  }
+
+  .stats-container > div {
+    width: 100%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-container > div {
+    width: 100%;
+  }
+
+  .item.copyright {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
